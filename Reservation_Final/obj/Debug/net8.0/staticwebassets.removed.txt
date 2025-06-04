@@ -1,0 +1,3 @@
+C:\Users\Nicat\Desktop\MVC\Reservation_Final\Reservation_Final\wwwroot\css\site.css
+C:\Users\Nicat\Desktop\MVC\Reservation_Final\Reservation_Final\wwwroot\favicon.ico
+C:\Users\Nicat\Desktop\MVC\Reservation_Final\Reservation_Final\wwwroot\js\site.js
