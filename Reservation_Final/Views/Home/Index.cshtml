@@ -1,10 +1,11 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
-
+@section css {
+    <link rel="stylesheet" href="~/assets/css/Home/style.css">
+}
 <main>
-    <section id="nav"
-             style="background-image: url('./assets/images/home/bannermix-min.webp'); background-size: cover;">
+    <section id="nav" style="background-image: url('assets/images/home/bannermix-min.webp'); background-size: cover; height: 502px">
         <div class="navbar">
             <div class="cus-container">
                 <div class="row align-items-center line">
@@ -13,11 +14,12 @@
                             <i class="fa-solid fa-bars"></i>
                         </div>
                         <div class="logo">
-                            <a href="index.html">
+                            <a asp-controller="Home" asp-action="Index">
                                 <picture>
-                                    <source media="(max-width: 990px)" srcset="./assets/images/home/blackLogo.svg">
-                                    <img class="logo" src="./assets/images/home/Traveler-logo.svg"
+                                    <source media="(max-width: 990px)" srcset="~/assets/images/home/blackLogo.svg">
+                                    <img class="logo" src="~/assets/images/home/Traveler-logo.svg"
                                          alt="Traveler Logo">
+                                 
                                 </picture>
                             </a>
                         </div>
@@ -26,19 +28,19 @@
                     <div class="col-md-7 midd">
                         <ul>
                             <li>
-                                <a href="index.html">Home</a>
+                                <a asp-controller="Home" asp-action="Index">Home</a>
                             </li>
                             <li>
-                                <a href="about.html">About</a>
+                                <a asp-controller="About" asp-action="Index">About</a>
                             </li>
                             <li>
-                                <a href="blog.html">Blog</a>
+                                <a asp-controller="Blog" asp-action="Index">Blog</a>
                             </li>
                             <li>
-                                <a href="contact.html">Contact</a>
+                                <a asp-controller="Contact" asp-action="Index">Contact</a>
                             </li>
                             <li>
-                                <a href="faq.html">FAQ</a>
+                                <a asp-controller="FAQ" asp-action="Index">FAQ</a>
                             </li>
                         </ul>
                     </div>
@@ -282,12 +284,12 @@
             <div class="row justify-content-center align-items-center">
                 <div class="col-md-6 item">
                     <div class="bg-img">
-                        <img src="./assets/images/home/Offer1.webp">
+                        <img src="~/assets/images/home/Offer1.webp">
                     </div>
                 </div>
                 <div class="col-md-6 item">
                     <div class="bg-img">
-                        <img src="./assets/images/home/Offer2.webp">
+                        <img src="~/assets/images/home/Offer2.webp">
                     </div>
                 </div>
             </div>
@@ -303,7 +305,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 mt-4 item">
                     <a href="#">
                         <div class="img"
-                             style="background-image: url('./assets/images/home/California.jpg'); background-size: cover;">
+                             style="background-image: url('assets/images/home/California.jpg'); background-size: cover;">
 
                             <div class="info">
                                 <p>California</p>
@@ -318,7 +320,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 mt-4 item">
                     <a href="#">
                         <div class="img"
-                             style="background-image: url('./assets/images/home/New-York-City.jpg'); background-size: cover;">
+                             style="background-image: url('assets/images/home/New-York-City.jpg'); background-size: cover;">
 
                             <div class="info">
                                 <p>New-York</p>
@@ -333,7 +335,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 mt-4 item">
                     <a href="#">
                         <div class="img"
-                             style="background-image: url('./assets/images/home/New-Jersey.jpg'); background-size: cover;">
+                             style="background-image: url('assets/images/home/New-Jersey.jpg'); background-size: cover;">
 
                             <div class="info">
                                 <p>New-Jersey</p>
@@ -348,7 +350,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 mt-4 item">
                     <a href="#">
                         <div class="img"
-                             style="background-image: url('./assets/images/home/Los-Angeles.jpg'); background-size: cover;">
+                             style="background-image: url('assets/images/home/Los-Angeles.jpg'); background-size: cover;">
 
                             <div class="info">
                                 <p>Los-Angeles</p>
@@ -363,7 +365,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 mt-4 item">
                     <a href="#">
                         <div class="img"
-                             style="background-image: url('./assets/images/home/San-Francisco.jpg'); background-size: cover;">
+                             style="background-image: url('assets/images/home/San-Francisco.jpg'); background-size: cover;">
 
                             <div class="info">
                                 <p>San-Francisco</p>
@@ -378,7 +380,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 mt-4 item">
                     <a href="#">
                         <div class="img"
-                             style="background-image: url('./assets/images/home/Nevada_.jpg'); background-size: cover;">
+                             style="background-image: url('assets/images/home/Nevada_.jpg'); background-size: cover;">
 
                             <div class="info">
                                 <p>Nevada</p>
@@ -409,7 +411,7 @@
                         <a href="#" class="blog-link">
                             <div class="x">
                                 <div class="img">
-                                    <img src="./assets/images/home/Rectangle-3-600x400.jpg" alt="Blog image" />
+                                    <img src="~/assets/images/home/Rectangle-3-600x400.jpg" alt="Blog image" />
                                 </div>
                                 <div class="blog-container">
                                     <div class="category">
@@ -438,7 +440,7 @@
                         <a href="#" class="blog-link">
                             <div class="x">
                                 <div class="img">
-                                    <img src="./assets/images/home/Rectangle-3-600x400-3.png" alt="Blog image" />
+                                    <img src="~/assets/images/home/Rectangle-3-600x400-3.png" alt="Blog image" />
                                 </div>
                                 <div class="blog-container">
                                     <div class="category">
@@ -465,7 +467,7 @@
                         <a href="#" class="blog-link">
                             <div class="x">
                                 <div class="img">
-                                    <img src="./assets/images/home/Rectangle-3-2-600x400.webp" alt="Blog image" />
+                                    <img src="~/assets/images/home/Rectangle-3-2-600x400.webp" alt="Blog image" />
                                 </div>
                                 <div class="blog-container">
                                     <div class="category">
@@ -492,7 +494,7 @@
                         <a href="#" class="blog-link">
                             <div class="x">
                                 <div class="img">
-                                    <img src="./assets/images/home/Rectangle-3-1-600x400.webp" alt="Blog image" />
+                                    <img src="~/assets/images/home/Rectangle-3-1-600x400.webp" alt="Blog image" />
                                 </div>
                                 <div class="blog-container">
                                     <div class="category">
@@ -519,7 +521,7 @@
                         <a href="#" class="blog-link">
                             <div class="x">
                                 <div class="img">
-                                    <img src="./assets/images/home/glaciar-vatnajokull-600x400.jpg" alt="Blog image" />
+                                    <img src="~/assets/images/home/glaciar-vatnajokull-600x400.jpg" alt="Blog image" />
                                 </div>
                                 <div class="blog-container">
                                     <div class="category">
@@ -546,7 +548,7 @@
                         <a href="#" class="blog-link">
                             <div class="x">
                                 <div class="img">
-                                    <img src="./assets/images/home/14-travel-instagram.w710.h473.2x-870x500-1-600x400.jpg" alt="Blog image" />
+                                    <img src="~/assets/images/home/14-travel-instagram.w710.h473.2x-870x500-1-600x400.jpg" alt="Blog image" />
                                 </div>
                                 <div class="blog-container">
                                     <div class="category">
@@ -573,7 +575,7 @@
                         <a href="#" class="blog-link">
                             <div class="x">
                                 <div class="img">
-                                    <img src="./assets/images/home/los_angeles_1-600x400.jpg" alt="Blog image" />
+                                    <img src="~/assets/images/home/los_angeles_1-600x400.jpg" alt="Blog image" />
                                 </div>
                                 <div class="blog-container">
                                     <div class="category">
@@ -600,7 +602,7 @@
                         <a href="#" class="blog-link">
                             <div class="x">
                                 <div class="img">
-                                    <img src="./assets/images/home/cali_5-600x400.jpg" alt="Blog image" />
+                                    <img src="~/assets/images/home/cali_5-600x400.jpg" alt="Blog image" />
                                 </div>
                                 <div class="blog-container">
                                     <div class="category">
@@ -637,7 +639,7 @@
         <div class="cus-container">
             <div class="row">
                 <div class="col-lg-6 col-md-6 left"
-                     style="background-image: url('./assets/images/home/subscribtion_Image.webp'); background-size: cover;">
+                     style="background-image: url('assets/images/home/subscribtion_Image.webp'); background-size: cover;">
                 </div>
                 <div class="col-lg-6 col-md-6 right">
                     <div class="contain">
@@ -660,3 +662,6 @@
         </div>
     </section>
 </main>
+@section js {
+    <script src="~/assets/js/home/script.js"></script>
+}

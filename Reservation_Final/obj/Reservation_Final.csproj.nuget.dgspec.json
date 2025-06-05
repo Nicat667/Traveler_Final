@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nicat\\Desktop\\MVC\\Reservation_Final\\Reservation_Final\\Reservation_Final.csproj": {}
+    "C:\\Users\\Nicat\\Desktop\\Traveler_Final\\Reservation_Final\\Reservation_Final.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nicat\\Desktop\\MVC\\Reservation_Final\\Domain\\Domain.csproj": {
+    "C:\\Users\\Nicat\\Desktop\\Traveler_Final\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nicat\\Desktop\\MVC\\Reservation_Final\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Nicat\\Desktop\\Traveler_Final\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\Nicat\\Desktop\\MVC\\Reservation_Final\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\Nicat\\Desktop\\Traveler_Final\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Nicat\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nicat\\Desktop\\MVC\\Reservation_Final\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\Nicat\\Desktop\\Traveler_Final\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -76,14 +76,14 @@
         }
       }
     },
-    "C:\\Users\\Nicat\\Desktop\\MVC\\Reservation_Final\\Repository\\Repository.csproj": {
+    "C:\\Users\\Nicat\\Desktop\\Traveler_Final\\Repository\\Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nicat\\Desktop\\MVC\\Reservation_Final\\Repository\\Repository.csproj",
+        "projectUniqueName": "C:\\Users\\Nicat\\Desktop\\Traveler_Final\\Repository\\Repository.csproj",
         "projectName": "Repository",
-        "projectPath": "C:\\Users\\Nicat\\Desktop\\MVC\\Reservation_Final\\Repository\\Repository.csproj",
+        "projectPath": "C:\\Users\\Nicat\\Desktop\\Traveler_Final\\Repository\\Repository.csproj",
         "packagesPath": "C:\\Users\\Nicat\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nicat\\Desktop\\MVC\\Reservation_Final\\Repository\\obj\\",
+        "outputPath": "C:\\Users\\Nicat\\Desktop\\Traveler_Final\\Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -105,8 +105,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Nicat\\Desktop\\MVC\\Reservation_Final\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Nicat\\Desktop\\MVC\\Reservation_Final\\Domain\\Domain.csproj"
+              "C:\\Users\\Nicat\\Desktop\\Traveler_Final\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Nicat\\Desktop\\Traveler_Final\\Domain\\Domain.csproj"
               }
             }
           }
@@ -172,14 +172,14 @@
         }
       }
     },
-    "C:\\Users\\Nicat\\Desktop\\MVC\\Reservation_Final\\Reservation_Final\\Reservation_Final.csproj": {
+    "C:\\Users\\Nicat\\Desktop\\Traveler_Final\\Reservation_Final\\Reservation_Final.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nicat\\Desktop\\MVC\\Reservation_Final\\Reservation_Final\\Reservation_Final.csproj",
+        "projectUniqueName": "C:\\Users\\Nicat\\Desktop\\Traveler_Final\\Reservation_Final\\Reservation_Final.csproj",
         "projectName": "Reservation_Final",
-        "projectPath": "C:\\Users\\Nicat\\Desktop\\MVC\\Reservation_Final\\Reservation_Final\\Reservation_Final.csproj",
+        "projectPath": "C:\\Users\\Nicat\\Desktop\\Traveler_Final\\Reservation_Final\\Reservation_Final.csproj",
         "packagesPath": "C:\\Users\\Nicat\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nicat\\Desktop\\MVC\\Reservation_Final\\Reservation_Final\\obj\\",
+        "outputPath": "C:\\Users\\Nicat\\Desktop\\Traveler_Final\\Reservation_Final\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -201,8 +201,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Nicat\\Desktop\\MVC\\Reservation_Final\\Service\\Service.csproj": {
-                "projectPath": "C:\\Users\\Nicat\\Desktop\\MVC\\Reservation_Final\\Service\\Service.csproj"
+              "C:\\Users\\Nicat\\Desktop\\Traveler_Final\\Service\\Service.csproj": {
+                "projectPath": "C:\\Users\\Nicat\\Desktop\\Traveler_Final\\Service\\Service.csproj"
               }
             }
           }
@@ -261,14 +261,14 @@
         }
       }
     },
-    "C:\\Users\\Nicat\\Desktop\\MVC\\Reservation_Final\\Service\\Service.csproj": {
+    "C:\\Users\\Nicat\\Desktop\\Traveler_Final\\Service\\Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nicat\\Desktop\\MVC\\Reservation_Final\\Service\\Service.csproj",
+        "projectUniqueName": "C:\\Users\\Nicat\\Desktop\\Traveler_Final\\Service\\Service.csproj",
         "projectName": "Service",
-        "projectPath": "C:\\Users\\Nicat\\Desktop\\MVC\\Reservation_Final\\Service\\Service.csproj",
+        "projectPath": "C:\\Users\\Nicat\\Desktop\\Traveler_Final\\Service\\Service.csproj",
         "packagesPath": "C:\\Users\\Nicat\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nicat\\Desktop\\MVC\\Reservation_Final\\Service\\obj\\",
+        "outputPath": "C:\\Users\\Nicat\\Desktop\\Traveler_Final\\Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -290,8 +290,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Nicat\\Desktop\\MVC\\Reservation_Final\\Repository\\Repository.csproj": {
-                "projectPath": "C:\\Users\\Nicat\\Desktop\\MVC\\Reservation_Final\\Repository\\Repository.csproj"
+              "C:\\Users\\Nicat\\Desktop\\Traveler_Final\\Repository\\Repository.csproj": {
+                "projectPath": "C:\\Users\\Nicat\\Desktop\\Traveler_Final\\Repository\\Repository.csproj"
               }
             }
           }

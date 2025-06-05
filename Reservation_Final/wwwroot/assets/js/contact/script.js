@@ -215,7 +215,7 @@ fetch(url)
       const lng = location.lng;
       console.log("Coordinates:", lat, lng);
 
-
+      console.log("Map init", lat, lng); // Debug line
       initMap(lat, lng);
     } else {
       console.error("Geocoding error:", data.status);
@@ -224,7 +224,8 @@ fetch(url)
   .catch(error => console.error("Request failed:", error));
 
 
-  function initMap(lat, lng) {
+function initMap(lat, lng) {
+   console.log("Map init", lat, lng); // Debug line
   const map = new google.maps.Map(document.getElementById("map-canvas"), {
     center: { lat, lng },
     zoom: 15,
