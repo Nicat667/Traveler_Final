@@ -424,7 +424,7 @@
   width: 100%;
 }
 
-@media (max-width: 990px) {
+@media (max-width: 1030px) {
   .navbar {
     background-color: white !important;
   }
